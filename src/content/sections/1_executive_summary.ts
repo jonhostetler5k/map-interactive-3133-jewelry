@@ -1,6 +1,4 @@
 export const CONTENT_EXECUTIVE_SUMMARY = `
-# EXECUTIVE SUMMARY
-
 **Prepared for:** 
 Danna Weiss, 31:33 Jewelry
 
@@ -12,6 +10,8 @@ Danna Weiss, 31:33 Jewelry
 A comprehensive, actionable marketing strategy to launch, test, and scale 31:33 Jewelry through paid advertising, with three complete prospect playbooks and detailed campaign execution plans.
 
 ---
+
+# EXECUTIVE SUMMARY
 
 ## **Where You Are Today**
 

@@ -2,13 +2,43 @@ import React, { useState, useEffect } from 'react';
 import MarkdownViewer from './components/MarkdownViewer';
 import ChatWidget from './components/ChatWidget';
 import { SECTIONS } from './src/content/index';
-import { Menu, X, ChevronRight, ArrowRight, ArrowLeft } from 'lucide-react';
+import { Menu, X, ChevronRight, ChevronDown, ArrowRight, ArrowLeft } from 'lucide-react';
+
+// Define subsections for playbooks
+const PLAYBOOK_SUBSECTIONS = [
+  { id: 'prospect-1-playbook', subsections: [
+    { id: 'part-1', label: 'Part 1: The Prospect', anchor: 'PART 1: THE PROSPECT' },
+    { id: 'part-2', label: 'Part 2: The Campaigns', anchor: 'PART 2: THE CAMPAIGNS' },
+    { id: 'campaign-1', label: 'Campaign 1: Style Finder Quiz', anchor: 'CAMPAIGN 1: STYLE FINDER QUIZ' },
+    { id: 'campaign-2', label: 'Campaign 2: Luxury Buyer\'s Guide', anchor: 'CAMPAIGN 2: LUXURY BUYER\'S GUIDE' },
+    { id: 'campaign-3', label: 'Campaign 3: Welcome Offer', anchor: 'CAMPAIGN 3: WELCOME OFFER' }
+  ]},
+  { id: 'prospect-2-playbook', subsections: [
+    { id: 'part-1', label: 'Part 1: The Prospect', anchor: 'PART 1: THE PROSPECT' },
+    { id: 'part-2', label: 'Part 2: The Campaigns', anchor: 'PART 2: THE CAMPAIGNS' },
+    { id: 'campaign-1', label: 'Campaign 1: Aspirational Lifestyle Quiz', anchor: 'CAMPAIGN 1: ASPIRATIONAL LIFESTYLE QUIZ' },
+    { id: 'campaign-2', label: 'Campaign 2: Luxury Gift Guide', anchor: 'CAMPAIGN 2: LUXURY GIFT GUIDE' },
+    { id: 'campaign-3', label: 'Campaign 3: VIP Early Access', anchor: 'CAMPAIGN 3: VIP EARLY ACCESS' }
+  ]},
+  { id: 'prospect-3-playbook', subsections: [
+    { id: 'part-1', label: 'Part 1: The Prospect', anchor: 'PART 1: THE PROSPECT' },
+    { id: 'part-2', label: 'Part 2: The Campaigns', anchor: 'PART 2: THE CAMPAIGNS' },
+    { id: 'campaign-1', label: 'Campaign 1: Faith Expression Quiz', anchor: 'CAMPAIGN 1: FAITH EXPRESSION QUIZ' },
+    { id: 'campaign-2', label: 'Campaign 2: Faith & Style Guide', anchor: 'CAMPAIGN 2: FAITH & STYLE GUIDE' },
+    { id: 'campaign-3', label: 'Campaign 3: Belonging Collection', anchor: 'CAMPAIGN 3: BELONGING COLLECTION' }
+  ]}
+];
 
 const App: React.FC = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [activeSectionIndex, setActiveSectionIndex] = useState(0);
+  const [expandedPlaybooks, setExpandedPlaybooks] = useState<Set<string>>(new Set());
 
   const activeSection = SECTIONS[activeSectionIndex];
+
+  useEffect(() => {
+    console.log('ROOT App.tsx loaded successfully');
+  }, []);
 
   // Scroll to top of content when section changes
   useEffect(() => {
@@ -30,31 +60,101 @@ const App: React.FC = () => {
     }
   };
 
-  // Group sections by category for the sidebar
-  const strategySections = SECTIONS.filter(s => s.category === 'Strategy');
-  const playbookSections = SECTIONS.filter(s => s.category === 'Playbooks');
+  const togglePlaybook = (playbookId: string) => {
+    setExpandedPlaybooks(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(playbookId)) {
+        newSet.delete(playbookId);
+      } else {
+        newSet.add(playbookId);
+      }
+      return newSet;
+    });
+  };
+
+  const scrollToSubsection = (sectionIndex: number, anchor: string) => {
+    // First, navigate to the section
+    setActiveSectionIndex(sectionIndex);
+    
+    // Then scroll to the anchor after a brief delay to let content render
+    setTimeout(() => {
+      const mainContent = document.getElementById('main-content');
+      if (mainContent) {
+        // Find all headings in the content
+        const headings = mainContent.querySelectorAll('h1, h2, h3, h4');
+        let targetHeading: Element | null = null;
+        
+        headings.forEach(heading => {
+          const text = heading.textContent?.trim().toUpperCase() || '';
+          if (text.includes(anchor.toUpperCase())) {
+            targetHeading = heading;
+          }
+        });
+        
+        if (targetHeading) {
+          targetHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    }, 100);
+    
+    if (window.innerWidth < 1024) setIsSidebarOpen(false);
+  };
+
+  const isPlaybook = (sectionId: string) => {
+    return PLAYBOOK_SUBSECTIONS.some(p => p.id === sectionId);
+  };
+
+  const getPlaybookSubsections = (sectionId: string) => {
+    return PLAYBOOK_SUBSECTIONS.find(p => p.id === sectionId)?.subsections || [];
+  };
 
   const renderNavButton = (section: typeof SECTIONS[0], index: number) => {
-    // Determine overall index
-    const realIndex = SECTIONS.findIndex(s => s.id === section.id);
     const isActive = activeSection.id === section.id;
+    const hasSubsections = isPlaybook(section.id);
+    const isExpanded = expandedPlaybooks.has(section.id);
+    const subsections = getPlaybookSubsections(section.id);
 
     return (
-      <button
-        key={section.id}
-        onClick={() => {
-          setActiveSectionIndex(realIndex);
-          if (window.innerWidth < 1024) setIsSidebarOpen(false);
-        }}
-        className={`w-full text-left flex items-center gap-3 py-3 px-4 rounded-lg text-sm transition-all duration-300 group ${
-          isActive
-            ? 'bg-white/10 text-white shadow-lg border-l-2 border-brand-gold' 
-            : 'text-gray-400 hover:bg-white/5 hover:text-white'
-        }`}
-      >
-        <span className="font-medium tracking-wide truncate">{section.title}</span>
-        {isActive && <ChevronRight size={14} className="ml-auto text-brand-gold" />}
-      </button>
+      <div key={section.id}>
+        <button
+          onClick={() => {
+            if (hasSubsections) {
+              togglePlaybook(section.id);
+            }
+            setActiveSectionIndex(index);
+            if (window.innerWidth < 1024 && !hasSubsections) setIsSidebarOpen(false);
+          }}
+          className={`w-full text-left flex items-center gap-3 py-3 px-4 rounded-lg text-sm transition-all duration-300 group ${
+            isActive
+              ? 'bg-white/10 text-white shadow-lg border-l-2 border-brand-gold' 
+              : 'text-gray-400 hover:bg-white/5 hover:text-white'
+          }`}
+        >
+          <span className="font-medium tracking-wide truncate">{section.title}</span>
+          {hasSubsections && (
+            <ChevronDown 
+              size={14} 
+              className={`ml-auto transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}
+            />
+          )}
+          {!hasSubsections && isActive && <ChevronRight size={14} className="ml-auto text-brand-gold" />}
+        </button>
+        
+        {/* Subsections */}
+        {hasSubsections && isExpanded && (
+          <div className="ml-4 mt-1 space-y-1 border-l border-gray-700 pl-2">
+            {subsections.map((subsection) => (
+              <button
+                key={subsection.id}
+                onClick={() => scrollToSubsection(index, subsection.anchor)}
+                className="w-full text-left py-2 px-3 rounded text-xs text-gray-500 hover:text-white hover:bg-white/5 transition-all duration-200"
+              >
+                {subsection.label}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
     );
   };
 
@@ -83,20 +183,8 @@ const App: React.FC = () => {
             <p className="text-[10px] text-brand-gold tracking-[0.4em] uppercase font-bold">Jewelry</p>
           </div>
 
-          <nav className="space-y-8">
-            <div>
-              <h2 className="text-[10px] font-bold text-gray-500 uppercase tracking-[0.2em] mb-4 pl-4">Strategic Foundation</h2>
-              <div className="space-y-1">
-                {strategySections.map((section, idx) => renderNavButton(section, idx))}
-              </div>
-            </div>
-
-            <div>
-              <h2 className="text-[10px] font-bold text-gray-500 uppercase tracking-[0.2em] mb-4 pl-4">Channel Playbooks</h2>
-              <div className="space-y-1">
-                {playbookSections.map((section, idx) => renderNavButton(section, idx))}
-              </div>
-            </div>
+          <nav className="space-y-1">
+            {SECTIONS.map((section, idx) => renderNavButton(section, idx))}
           </nav>
         </div>
         
