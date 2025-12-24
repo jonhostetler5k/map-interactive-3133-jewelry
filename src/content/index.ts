@@ -1,70 +1,56 @@
 import { PlanSection } from '../types';
 
 // Import all sections
-import { CONTENT_IMPACT_OFFERING } from './sections/1_impactOffering';
-import { CONTENT_IMPACT_PROSPECT } from './sections/2_impactProspect';
-import { CONTENT_ROADMAP } from './sections/3_roadmap';
-import { CONTENT_PLAYBOOK_AFFILIATE } from './sections/4_playbook_affiliate';
-import { CONTENT_PLAYBOOK_INFLUENCER } from './sections/5_playbook_influencer';
-import { CONTENT_PLAYBOOK_PODCAST } from './sections/6_playbook_podcast';
-import { CONTENT_PLAYBOOK_EVENTS } from './sections/7_playbook_events';
-import { CONTENT_PLAYBOOK_BOUTIQUE } from './sections/8_playbook_boutique';
-import { CONTENT_PLAYBOOK_CHURCH } from './sections/9_playbook_church';
+import { CONTENT_EXECUTIVE_SUMMARY } from './sections/1_executive_summary';
+import { CONTENT_DIGITAL_PRESENCE } from './sections/2_digital_presence';
+import { CONTENT_PROSPECT_1 } from './sections/3_prospect_1';
+import { CONTENT_PROSPECT_2 } from './sections/4_prospect_2';
+import { CONTENT_PROSPECT_3 } from './sections/5_prospect_3';
+import { CONTENT_COMPETITIVE_INTELLIGENCE } from './sections/6_competitive_intelligence';
+import { CONTENT_EXECUTION_PLAN } from './sections/7_execution_plan';
 
 export const SECTIONS: PlanSection[] = [
   {
-    id: 'impact-offering',
-    title: 'IMPACT Offering',
+    id: 'executive-summary',
+    title: 'Executive Summary',
     category: 'Strategy',
-    content: CONTENT_IMPACT_OFFERING
+    content: CONTENT_EXECUTIVE_SUMMARY
   },
   {
-    id: 'impact-prospect',
-    title: 'IMPACT Prospect',
+    id: 'digital-presence-assessment',
+    title: 'Current Digital Presence Assessment',
     category: 'Strategy',
-    content: CONTENT_IMPACT_PROSPECT
+    content: CONTENT_DIGITAL_PRESENCE
   },
   {
-    id: '90-day-roadmap',
-    title: '90-Day Roadmap',
+    id: 'prospect-1-playbook',
+    title: 'Prospect 1 Playbook',
     category: 'Strategy',
-    content: CONTENT_ROADMAP
+    content: CONTENT_PROSPECT_1
   },
   {
-    id: 'playbook-affiliate',
-    title: 'Affiliate & Referral Partnerships',
-    category: 'Playbooks',
-    content: CONTENT_PLAYBOOK_AFFILIATE
+    id: 'prospect-2-playbook',
+    title: 'Prospect 2 Playbook',
+    category: 'Strategy',
+    content: CONTENT_PROSPECT_2
   },
   {
-    id: 'playbook-influencer',
-    title: 'Micro-Influencer Partnerships',
-    category: 'Playbooks',
-    content: CONTENT_PLAYBOOK_INFLUENCER
+    id: 'prospect-3-playbook',
+    title: 'Prospect 3 Playbook',
+    category: 'Strategy',
+    content: CONTENT_PROSPECT_3
   },
   {
-    id: 'playbook-podcast',
-    title: 'Podcast Appearances',
-    category: 'Playbooks',
-    content: CONTENT_PLAYBOOK_PODCAST
+    id: 'competitive-intelligence',
+    title: 'Competitive Intelligence',
+    category: 'Strategy',
+    content: CONTENT_COMPETITIVE_INTELLIGENCE
   },
   {
-    id: 'playbook-events',
-    title: 'Christian Conferences & Events',
-    category: 'Playbooks',
-    content: CONTENT_PLAYBOOK_EVENTS
-  },
-  {
-    id: 'playbook-boutique',
-    title: 'Boutique Retail Partnerships',
-    category: 'Playbooks',
-    content: CONTENT_PLAYBOOK_BOUTIQUE
-  },
-  {
-    id: 'playbook-church',
-    title: 'Church & Ministry Partnerships',
-    category: 'Playbooks',
-    content: CONTENT_PLAYBOOK_CHURCH
+    id: 'execution-plan',
+    title: 'Execution Plan',
+    category: 'Strategy',
+    content: CONTENT_EXECUTION_PLAN
   }
 ];
 
