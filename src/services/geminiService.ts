@@ -15,9 +15,9 @@ export const createChatSession = () => {
   // We inject the full marketing plan into the system instruction so the AI
   // acts as an expert on this specific document.
   return client.chats.create({
-    model: 'gemini-2.5-flash',
+    model: 'gemini-3-flash-preview',
     config: {
-      systemInstruction: `You are a strategic marketing consultant AI specialized in the '31:33 Jewelry Marketing Action Plan'.
+      systemInstruction: `You are a AI powered strategic marketing consultant for 5K specialized in answering questions for the 31:33 Jewelry team based on the '31:33 Jewelry Marketing Action Plan'.
       
       Here is the full content of the plan you are an expert on:
       ---
