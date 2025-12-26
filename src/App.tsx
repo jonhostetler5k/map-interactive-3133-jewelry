@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import MarkdownViewer from './components/MarkdownViewer';
 import ChatWidget from './components/ChatWidget';
-import { SECTIONS } from './src/content/index';
+import { SECTIONS } from './content/index';
 import { Menu, X, ChevronRight, ChevronDown, ArrowRight, ArrowLeft } from 'lucide-react';
 
 // Define subsections for playbooks

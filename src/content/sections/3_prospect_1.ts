@@ -584,6 +584,8 @@ Meta is a visual platform, so creative is the primary lever for performance. The
 
 5. **Quiz Preview:** Static image or carousel showing what the quiz looks like with text overlay: "Find your piece in 2 minutes."
 
+Here are some sample creatives we generated for inspiration:
+
 | | | |
 |:---:|:---:|:---:|
 | ![](/assets/ad-creatives/luxury-photo-shoot-sample-ad-creative.jpeg) | ![](/assets/ad-creatives/luxury-photo-shoot-sample-ad-creative-2.jpeg) | ![](/assets/ad-creatives/luxury-photo-shoot-sample-ad-creative-3.jpeg) |
