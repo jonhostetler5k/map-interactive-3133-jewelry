@@ -787,7 +787,7 @@ Each one is:
 **Not quite right?** Reply to this email and let us know what you're looking for. We're here to help you find your piece—and gifts for the people you love.
 
 With care,
-Dana & The 31:33 Team
+Danna & The 31:33 Team
 
 P.S. All orders ship free with luxury gift packaging available. Easy returns within 30 days.
 
@@ -841,7 +841,7 @@ If you've ever felt torn between your style and your faith, 31:33 is for you.
 [CTA Button: "Explore the Collection"]
 
 With gratitude,
-Dana
+Danna
 Founder, 31:33 Jewelry
 
 P.S. The name "31:33" comes from Jeremiah 31:33—a verse about belonging, covenant, and God writing His law on our hearts. It's the foundation of everything we create.
@@ -1051,7 +1051,7 @@ If anything ever happens to your piece—a clasp breaks, a stone comes loose—w
 Every order can include beautiful gift packaging at no extra charge. We can also include a personal note if you'd like.
 
 **Real Customer Service**
-Have a question? Reply to this email. You'll hear back from a real person (usually Dana or someone on her team) within 24 hours.
+Have a question? Reply to this email. You'll hear back from a real person (usually Danna or someone on her team) within 24 hours.
 
 [Image: Unboxing shot or gift packaging detail]
 
@@ -1112,7 +1112,7 @@ Let's find them together.
 [CTA Button: "Shop Now"]
 
 With gratitude,
-Dana & The 31:33 Team
+Danna & The 31:33 Team
 
 P.S. If you're not ready to purchase yet, that's okay. We'll continue to share new arrivals, gifting guides, and stories from our community. You're always welcome here.
 
@@ -1742,7 +1742,7 @@ Over the next few weeks, I'll share real gifting stories from our customers, hig
 
 For now, enjoy the guide.
 
-Dana
+Danna
 Founder, 31:33 Jewelry
 
 P.S. If you have a gifting occasion coming up and need help choosing the perfect piece, just reply to this email. I'm here to help.
@@ -1781,7 +1781,7 @@ That's the power of thoughtful gifting.
 
 If you have a milestone birthday coming up in your circle, this is the piece that honors the moment.
 
-Dana
+Danna
 
 P.S. Sarah also bought one for herself. She said, "If it's meaningful enough to give, it's meaningful enough to wear."
 
@@ -1822,7 +1822,7 @@ You don't have to overthink it anymore.
 
 [Browse Our Collection Button]
 
-Dana
+Danna
 
 P.S. If you're stuck on what to give for a specific occasion, reply to this email. I'll help you choose the perfect piece.
 
@@ -1871,7 +1871,7 @@ These aren't generic gifts. They're pieces that honor the moment and the person.
 
 If you have a life transition coming up in your circle, one of these pieces is the perfect choice.
 
-Dana
+Danna
 
 P.S. Need help personalizing the presentation? Reply to this email and I'll send you a guide to writing meaningful gift notes.
 
@@ -1908,7 +1908,7 @@ Whether it's a milestone birthday, a life transition, or just a moment to honor 
 
 And if you need help choosing the perfect piece, just reply to this email. I'm here to help.
 
-Dana
+Danna
 
 P.S. Many of our customers buy a piece for gifting and one for themselves. Use code GIFT15 for 15% off when you purchase two or more pieces. (Expires in 7 days.)
 
@@ -1949,7 +1949,7 @@ You've spent weeks thinking about what to give to others. What if you gave somet
 
 You deserve this too.
 
-Dana
+Danna
 
 P.S. Use code GIFT15 for 15% off when you purchase two or more pieces. Give one, keep one. (Expires in 5 days.)
 
@@ -1992,7 +1992,7 @@ Use code **GIFT15** at checkout for 15% off when you purchase two or more pieces
 
 You're the thoughtful gift-giver in your circle. This is your chance to give something that will be treasured.
 
-Dana
+Danna
 
 P.S. If you need help choosing the perfect piece, reply to this email. I'm here until midnight.
 
@@ -2641,7 +2641,7 @@ Whether you're treating yourself or giving a meaningful gift, this is your chanc
 
 **Offer expires in 7 days.**
 
-Dana
+Danna
 Founder, 31:33 Jewelry
 
 P.S. Not sure where to start? Reply to this email and I'll help you find the perfect piece.
@@ -2693,7 +2693,7 @@ $525 → $446 with your welcome offer
 
 Offer expires in 6 days.
 
-Dana
+Danna
 
 ---
 
@@ -2732,7 +2732,7 @@ You can buy with confidence.
 
 Offer expires in 4 days.
 
-Dana
+Danna
 
 P.S. If you have questions about sizing, styling, or which piece is right for you, just reply to this email. I'm here to help.
 
@@ -2763,7 +2763,7 @@ Offer expires in 2 days.
 
 [Shop Now Button]
 
-Dana
+Danna
 
 P.S. Need help choosing? Reply to this email and I'll send you personalized recommendations.
 
@@ -2796,7 +2796,7 @@ If you've been thinking about starting your 31:33 collection—or giving a meani
 
 [Shop Now Button]
 
-Dana
+Danna
 
 P.S. If you need help choosing the perfect piece, reply to this email. I'm here until midnight.
 

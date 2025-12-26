@@ -71,7 +71,7 @@ Here's a realistic content calendar for your team:
 - This content justifies your price point
 
 **1x Founder Story Post (every other week):**
-- Dana's background as celebrity stylist
+- Danna's background as celebrity stylist
 - The vision God gave you for 31:33
 - Your styling philosophy
 - What luxury means to you
@@ -126,7 +126,7 @@ For organic Facebook content, maintain a minimal but consistent presence:
 **Facebook-Specific Content Opportunities:**
 
 **Founder Story Video:**
-Facebook is where longer-form video content performs well. A 2-3 minute video of Dana telling the complete brand story (celebrity stylist background, the vision from God, why fine jewelry matters, what 31:33 Jewelry means) would serve as an excellent pinned post and paid ad creative.
+Facebook is where longer-form video content performs well. A 2-3 minute video of Danna telling the complete brand story (celebrity stylist background, the vision from God, why fine jewelry matters, what 31:33 Jewelry means) would serve as an excellent pinned post and paid ad creative.
 
 **Behind-the-Scenes Content:**
 Facebook audiences respond well to authenticity and process. Show the design process, material selection, quality control, and the story behind each collection.
@@ -171,7 +171,7 @@ Your Instagram Reels can be cross-posted to TikTok with minimal additional effor
 - Close-ups of the "31:33" engraving
 - The black and white aesthetic (which stands out on TikTok)
 - Behind-the-scenes of the photo shoot
-- Dana explaining the meaning of 31:33
+- Danna explaining the meaning of 31:33
 
 **Posting Frequency: 3-4x per week**
 
@@ -228,7 +228,7 @@ Your homepage creates intrigue. The "31:33" typography invites questions. The li
 After the lifestyle carousel, the homepage should guide visitors through a narrative:
 1. "What is 31:33?" (The meaning and concept)
 2. "See the collection" (Product showcase with lifestyle context)
-3. "Meet Dana" (Founder credibility and story)
+3. "Meet Danna" (Founder credibility and story)
 4. "Our promise" (Quality, materials, craftsmanship)
 
 This structure maintains the luxury positioning while providing the information needed for a purchase decision.
@@ -437,7 +437,7 @@ Your commitment to sterling silver, gold, and diamonds positions you correctly i
 
 **4. Founder Credibility**
 
-Dana's 24 years as a celebrity stylist is a massive asset. This background legitimizes your luxury positioning and differentiates you from typical Christian jewelry brands. You have credibility that most new brands don't have.
+Danna's 24 years as a celebrity stylist is a massive asset. This background legitimizes your luxury positioning and differentiates you from typical Christian jewelry brands. You have credibility that most new brands don't have.
 
 **5. Existing Audience**
 
@@ -484,7 +484,7 @@ Your social media is 75% lifestyle, 15% product, 10% heritage/craftsmanship. Thi
 
 **4. Founder Story Underutilization (Medium Priority)**
 
-Dana's story is barely visible. For a founder-led luxury brand, this is a missed opportunity. Your story builds trust, credibility, and emotional connection.
+Danna's story is barely visible. For a founder-led luxury brand, this is a missed opportunity. Your story builds trust, credibility, and emotional connection.
 
 **Action Required:**
 - Create 2-3 minute founder story video within 30 days
@@ -555,7 +555,7 @@ These are actions you can take in the next 7-30 days that will have immediate im
 **Week 2-4 Quick Wins:**
 
 5. **Create Founder Story Video**
-   - Record 2-3 minute video of Dana telling brand story
+   - Record 2-3 minute video of Danna telling brand story
    - Can be shot on iPhone (authenticity > production value)
    - Post to homepage, About page, Instagram, Facebook
    - Time: 4 hours (shooting + editing)

@@ -682,7 +682,7 @@ The creative strategy for the Style Finder Quiz emphasizes authenticity, the fru
    - Slide 4: Example results (product recommendations)
    - Slide 5: "Take the Quiz" (CTA)
 
-5. **Video Ad (30-45 seconds):** Founder Dana speaking directly to camera, sharing her story of creating 31:33 because she was tired of Christian jewelry that looked cheap. Shows close-ups of the jewelry being worn by real Christian women. Ends with CTA to take the quiz.
+5. **Video Ad (30-45 seconds):** Founder Danna speaking directly to camera, sharing her story of creating 31:33 because she was tired of Christian jewelry that looked cheap. Shows close-ups of the jewelry being worn by real Christian women. Ends with CTA to take the quiz.
 
 **5 Complete Meta Ad Variations:**
 
@@ -782,7 +782,7 @@ Take our Style Finder Quiz and discover pieces that express your faith beautiful
 - **Primary Text:** 
 "I created 31:33 because I was tired of Christian jewelry that looked cheap."
 
-That's Dana, our founder.
+That's Danna, our founder.
 
 She's a Christian woman who wanted jewelry that reflected her faith and her style.
 
@@ -860,7 +860,7 @@ Over the next few weeks, I'll share more about our mission, introduce you to oth
 
 For now, explore your recommendations and let me know if you have any questions.
 
-Dana
+Danna
 Founder, 31:33 Jewelry
 
 P.S. If you're not sure which piece is right for you, just reply to this email. I'm here to help.
@@ -905,7 +905,7 @@ If that resonates with you, I'd love for you to explore the collection.
 
 [Browse Our Collection Button]
 
-Dana
+Danna
 
 P.S. If you have questions about our mission, our materials, or which piece is right for you, just reply to this email. I read every response.
 
@@ -952,7 +952,7 @@ You deserve to wear something that reflects who you are.
 
 [Browse Our Collection Button]
 
-Dana
+Danna
 
 P.S. If you're still wrestling with this, reply to this email. I'd love to talk it through with you.
 
@@ -989,7 +989,7 @@ Join a community of Christian women who refuse to compromise.
 
 [Browse Our Collection Button]
 
-Dana
+Danna
 
 P.S. Want to connect with other 31:33 women? Join our private Facebook community where we share faith stories, styling tips, and encouragement. [Join Here]
 
@@ -1037,7 +1037,7 @@ When you invest in 31:33, you're investing in something that will remind you dai
 
 [Browse Our Collection Button]
 
-Dana
+Danna
 
 P.S. Have questions about sizing, materials, or care? Reply to this email and I'll answer personally.
 
@@ -1078,7 +1078,7 @@ Whatever it is, I'm here to help.
 
 Or reply to this email and let's talk it through.
 
-Dana
+Danna
 
 P.S. Many of our customers say the hardest part was giving themselves permission to invest in something beautiful. Once they did, they wondered why they waited so long.
 
@@ -1109,7 +1109,7 @@ You deserve to have something beautiful.
 
 Offer expires in 7 days.
 
-Dana
+Danna
 
 P.S. If you need help choosing the perfect piece, reply to this email. I'm here to help.
 
@@ -1172,7 +1172,7 @@ Take our Style Finder Quiz and discover your perfect piece. Link in bio. 🤍
 **Post 2: Brand Mission (Reel)**
 - **Format:** 30-second Reel with text overlay and voiceover
 - **Hook:** "I created 31:33 because I was tired of Christian jewelry that looked cheap."
-- **Content:** Founder Dana sharing why she created the brand, interspersed with close-ups of the jewelry and women wearing it
+- **Content:** Founder Danna sharing why she created the brand, interspersed with close-ups of the jewelry and women wearing it
 - **CTA:** "Take our Style Finder Quiz. Link in bio."
 
 **Caption:**
@@ -1354,7 +1354,7 @@ The Faith & Style Video Series is a 3-part video content series (5-7 minutes eac
 
 1. **"Why Christian Women Deserve Beautiful Things"** - Addresses the guilt around self-investment and reframes beauty as stewardship, not vanity. Features interviews with Christian women (ministry leaders, nonprofit directors, worship leaders) who share how they've reconciled their faith with their desire for quality and aesthetics.
 
-2. **"The Story Behind 31:33: Creating Jewelry That Honors God"** - Founder Dana shares the brand's origin story, the meaning of Jeremiah 31:33, the craftsmanship process, and why excellence in design honors God. Behind-the-scenes footage of jewelry being made, materials being sourced, and the intentionality behind each piece.
+2. **"The Story Behind 31:33: Creating Jewelry That Honors God"** - Founder Danna shares the brand's origin story, the meaning of Jeremiah 31:33, the craftsmanship process, and why excellence in design honors God. Behind-the-scenes footage of jewelry being made, materials being sourced, and the intentionality behind each piece.
 
 3. **"How to Wear Your Faith Visibly (Without Being Preachy)"** - Practical guide to choosing and wearing faith-based jewelry in different contexts (work, church, social settings). Features real customers sharing their stories of how 31:33 Jewelry has opened doors for faith conversations and become part of their daily spiritual practice.
 
@@ -1370,7 +1370,7 @@ The Faith & Style Video Series is a 3-part video content series (5-7 minutes eac
 
 The landing page for the Faith & Style Video Series follows a story-driven layout that emphasizes the emotional and spiritual journey of finding jewelry that honors both faith and style.
 
-1. **Hero Section:** Full-width video thumbnail (black and white) showing Dana speaking to camera, with bold typography overlay: "Faith & Style: A Video Series for Christian Women Who Refuse to Settle"
+1. **Hero Section:** Full-width video thumbnail (black and white) showing Danna speaking to camera, with bold typography overlay: "Faith & Style: A Video Series for Christian Women Who Refuse to Settle"
 
 2. **Problem/Agitation Section:** Brief copy that acknowledges the guilt Christian women feel about wanting beautiful things, positioning the video series as permission to honor both faith and aesthetics
 
@@ -1421,7 +1421,7 @@ By the end, you'll have clarity, permission, and confidence to invest in jewelry
 Addresses the guilt around self-investment. Features interviews with Christian women who share how they've reframed beauty as stewardship. You'll leave this video with permission to honor yourself.
 
 **Video 2: The Story Behind 31:33** (7 minutes)
-Founder Dana shares why she created 31:33, the meaning of Jeremiah 31:33, and the craftsmanship process. Behind-the-scenes footage of jewelry being made. You'll understand why excellence in design honors God.
+Founder Danna shares why she created 31:33, the meaning of Jeremiah 31:33, and the craftsmanship process. Behind-the-scenes footage of jewelry being made. You'll understand why excellence in design honors God.
 
 **Video 3: How to Wear Your Faith Visibly (Without Being Preachy)** (5 minutes)
 Practical guide to choosing and wearing faith-based jewelry in different contexts. Real customers share how 31:33 jewelry has opened doors for faith conversations. You'll learn how to be visible without being performative."
@@ -1453,7 +1453,7 @@ The landing page should mirror 31:33's dramatic, editorial aesthetic while feeli
 
 - **Color Palette:** Monochromatic black and white with warm gold accents
 - **Typography:** Bold, oversized headlines with clean, readable body copy
-- **Imagery:** Video thumbnails showing Dana speaking to camera, behind-the-scenes footage of jewelry being made, close-ups of women wearing 31:33 pieces. All imagery should feel intimate and authentic.
+- **Imagery:** Video thumbnails showing Danna speaking to camera, behind-the-scenes footage of jewelry being made, close-ups of women wearing 31:33 pieces. All imagery should feel intimate and authentic.
 - **Layout Style:** Clean, single-column layout with generous white space
 - **Video Thumbnails:** Display all three video thumbnails with play button overlays
 - **Mobile-First:** Ensure videos are easily playable on mobile devices
@@ -1592,7 +1592,7 @@ The creative strategy for the Faith & Style Video Series emphasizes authenticity
 
 **Image/Video Assets to Use:**
 
-1. **Video Ad (30-60 seconds):** Founder Dana speaking directly to camera: "I created 31:33 because I was tired of feeling guilty about wanting beautiful things. I'm a Christian woman who loves God and loves beauty. And I refuse to believe those two things are at odds." Cut to behind-the-scenes footage of jewelry being made, women wearing 31:33 pieces, and customer testimonials. End with CTA to watch the full video series.
+1. **Video Ad (30-60 seconds):** Founder Danna speaking directly to camera: "I created 31:33 because I was tired of feeling guilty about wanting beautiful things. I'm a Christian woman who loves God and loves beauty. And I refuse to believe those two things are at odds." Cut to behind-the-scenes footage of jewelry being made, women wearing 31:33 pieces, and customer testimonials. End with CTA to watch the full video series.
 
 2. **Emotional Testimonial Image:** Photo of a real customer (ministry leader) with quote overlay: "This video series gave me the permission I didn't know I needed."
 
@@ -1639,7 +1639,7 @@ Watch Video 1 now.
 - **Primary Text:** 
 "I created 31:33 because I was tired of feeling guilty about wanting beautiful things."
 
-I'm Dana. I'm a Christian woman who loves God and loves beauty.
+I'm Danna. I'm a Christian woman who loves God and loves beauty.
 
 And I refuse to believe those two things are at odds.
 
@@ -1794,7 +1794,7 @@ In 7 days, you'll get Video 3: How to Wear Your Faith Visibly (Without Being Pre
 
 For now, watch Video 1. And let me know what you think.
 
-Dana
+Danna
 Founder, 31:33 Jewelry
 
 P.S. If Video 1 resonates with you, reply to this email and tell me your story. I read every response.
@@ -1829,11 +1829,11 @@ This isn't just jewelry. It's a daily reminder of who you belong to.
 
 "Seeing the craftsmanship process made me realize this is an investment, not an expense." — Sarah K.
 
-"I cried when Dana explained the meaning of 31:33. This brand gets me." — Jennifer L.
+"I cried when Danna explained the meaning of 31:33. This brand gets me." — Jennifer L.
 
 Watch Video 2 now. And get ready for Video 3 in a few days.
 
-Dana
+Danna
 
 P.S. If you have questions about our materials, our process, or our mission, just reply to this email.
 
@@ -1871,7 +1871,7 @@ If you're ready to explore the collection, I'd love to help you find your perfec
 
 [Browse Our Collection Button]
 
-Dana
+Danna
 
 P.S. Many women who watch this series say the same thing: "I wish I'd found this sooner." If that's you, don't wait. Explore the collection now.
 
@@ -1910,7 +1910,7 @@ And if you're ready to explore the collection, I'm here to help.
 
 [Browse Our Collection Button]
 
-Dana
+Danna
 
 ---
 
@@ -1959,7 +1959,7 @@ Reply to this email and tell me:
 
 I'll send you personalized recommendations.
 
-Dana
+Danna
 
 P.S. We offer 30-day returns and a lifetime warranty. If you don't love it, send it back. No questions asked.
 
@@ -1992,7 +1992,7 @@ You deserve to have something beautiful.
 
 Offer expires in 7 days.
 
-Dana
+Danna
 
 P.S. If you need help choosing the perfect piece, reply to this email. I'm here to help.
 
@@ -2033,7 +2033,7 @@ The Instagram strategy for this campaign focuses on sharing clips from the video
 
 **Post 1: Video Clip from Series (Reel)**
 - **Format:** 30-second Reel with clip from Video 1
-- **Content:** Founder Dana speaking: "For years, I felt guilty every time I wanted something beautiful. I thought caring about style made me less faithful. But here's what I learned: Honoring yourself with beauty doesn't make you less devoted to God. It makes you more whole."
+- **Content:** Founder Danna speaking: "For years, I felt guilty every time I wanted something beautiful. I thought caring about style made me less faithful. But here's what I learned: Honoring yourself with beauty doesn't make you less devoted to God. It makes you more whole."
 - **Caption:**
 
 "For years, I felt guilty every time I wanted something beautiful.
@@ -2675,7 +2675,7 @@ Whether you're treating yourself or honoring a woman you love, this is your chan
 
 **Offer expires in 7 days.**
 
-Dana
+Danna
 Founder, 31:33 Jewelry
 
 P.S. Not sure where to start? Reply to this email and I'll help you find the perfect piece.
@@ -2727,7 +2727,7 @@ $525 → $446 with your welcome offer
 
 Offer expires in 6 days.
 
-Dana
+Danna
 
 ---
 
@@ -2772,7 +2772,7 @@ You deserve to wear something that reflects who you are.
 
 Offer expires in 4 days.
 
-Dana
+Danna
 
 P.S. We offer 30-day returns and a lifetime warranty. If you don't love it, send it back. No questions asked.
 
@@ -2805,7 +2805,7 @@ Offer expires in 2 days.
 
 You belong here.
 
-Dana
+Danna
 
 P.S. Need help choosing? Reply to this email and I'll send you personalized recommendations.
 
@@ -2840,7 +2840,7 @@ If you've been thinking about investing in jewelry that honors your faith and yo
 
 You belong here.
 
-Dana
+Danna
 
 P.S. If you need help choosing the perfect piece, reply to this email. I'm here until midnight.
 

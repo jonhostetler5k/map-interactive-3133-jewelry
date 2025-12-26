@@ -767,7 +767,7 @@ Each one is:
 **Not quite right?** Reply to this email and let us know what you're looking for. We're here to help you find your piece.
 
 With care,
-Dana & The 31:33 Team
+Danna & The 31:33 Team
 
 P.S. All orders ship free, and we offer easy returns within 30 days. No risk, just beauty.
 
@@ -813,7 +813,7 @@ If you've ever felt like you were choosing between your style and your faith, 31
 [CTA Button: "Explore the Collection"]
 
 With gratitude,
-Dana
+Danna
 Founder, 31:33 Jewelry
 
 P.S. The name "31:33" comes from Jeremiah 31:33—"I will put my law in their minds and write it on their hearts. I will be their God, and they will be my people." It's the foundation of everything we create.
@@ -1013,7 +1013,7 @@ Try your piece at home. Wear it. Layer it with your existing jewelry. If it's no
 If anything ever happens to your piece—a clasp breaks, a stone comes loose—we'll repair or replace it. For life.
 
 **Real Customer Service**
-Have a question? Reply to this email. You'll hear back from a real person (usually Dana or someone on her team) within 24 hours.
+Have a question? Reply to this email. You'll hear back from a real person (usually Danna or someone on her team) within 24 hours.
 
 **Secure, Discreet Packaging**
 Your jewelry arrives in a beautiful, understated box. Perfect for gifting—or keeping for yourself.
@@ -1073,7 +1073,7 @@ Your collection is waiting for something meaningful. Let's find it together.
 [CTA Button: "Shop Now"]
 
 With gratitude,
-Dana & The 31:33 Team
+Danna & The 31:33 Team
 
 P.S. If you're not ready to purchase yet, that's okay. We'll continue to share new arrivals, styling tips, and stories from our community. You're always welcome here.
 
@@ -1699,7 +1699,7 @@ This 20-page guide covers everything you need to know before making your next je
 • **Red Flags to Avoid:** Warning signs when shopping online
 • **Care & Maintenance:** How to protect your investment for decades
 
-**A Note from Dana, Founder of 31:33:**
+**A Note from Danna, Founder of 31:33:**
 
 "I created this guide because I believe transparency builds trust. Whether you buy from us or someone else, you deserve to know what you're paying for. Use this guide to ask better questions, evaluate quality, and invest in pieces you'll love forever."
 
@@ -1758,7 +1758,7 @@ Because we believe your jewelry should last as long as your faith.
 If you have questions about gold purity, materials, or anything in the guide, just reply to this email. I'm here to help.
 
 With care,
-Dana
+Danna
 Founder, 31:33 Jewelry
 
 P.S. In the guide, we included a comparison chart on page 4 that breaks down 10k vs. 14k vs. 18k gold. If you haven't read that section yet, it's worth a look.
@@ -1862,7 +1862,7 @@ Jewelry you wear every day. To client meetings. To dinner parties. To Sunday ser
 You've learned what makes jewelry high-quality. Now discover jewelry that's both high-quality and deeply meaningful.
 
 With care,
-Dana & The 31:33 Team
+Danna & The 31:33 Team
 
 ---
 
@@ -1951,7 +1951,7 @@ Try your piece at home. Wear it. Layer it. If it's not perfect, send it back for
 If anything ever happens—a clasp breaks, a stone comes loose—we'll repair or replace it. For life.
 
 **Real Customer Service**
-Reply to this email anytime. You'll hear back from a real person (usually Dana or someone on her team) within 24 hours.
+Reply to this email anytime. You'll hear back from a real person (usually Danna or someone on her team) within 24 hours.
 
 [Image: Unboxing or packaging detail]
 
@@ -2007,7 +2007,7 @@ Now find jewelry that checks every box.
 [CTA Button: "Shop Now"]
 
 With gratitude,
-Dana & The 31:33 Team
+Danna & The 31:33 Team
 
 P.S. If you're not ready to purchase yet, that's okay. We'll continue sharing new arrivals, styling tips, and stories from our community. You're always welcome here.
 
@@ -2661,7 +2661,7 @@ Every piece we create is:
 Welcome to the 31:33 community. We can't wait to see what you choose.
 
 With care,
-Dana & The 31:33 Team
+Danna & The 31:33 Team
 
 [Footer: Social links, contact info, unsubscribe]
 
@@ -2851,7 +2851,7 @@ And if you ever have questions—about materials, sizing, or anything else—jus
 [CTA Button: "Browse the Collection"]
 
 With gratitude,
-Dana & The 31:33 Team
+Danna & The 31:33 Team
 
 P.S. If you didn't find what you were looking for, let us know. We're always designing new pieces and we'd love your input.
 

@@ -122,7 +122,7 @@ For you, this might look like:
 
 - **Monthly "Belonging Stories"**: Feature a customer's faith journey and how 31:33 jewelry has become part of their story. This gives you monthly content that's emotionally resonant and creates community.
 - **Seasonal limited editions**: Release a special piece or finish (e.g., rose gold variant, diamond accent) tied to meaningful moments (Easter, Christmas, Mother's Day) to create natural purchase occasions.
-- **Founder-led content cadence**: Dana sharing her faith journey, design inspiration, or behind-the-scenes of the brand on a regular schedule. This builds the parasocial relationship that drives loyalty.
+- **Founder-led content cadence**: Danna sharing her faith journey, design inspiration, or behind-the-scenes of the brand on a regular schedule. This builds the parasocial relationship that drives loyalty.
 
 The lesson from Mejuri isn't "copy their tactics." It's "understand the psychology behind their tactics and adapt it to your brand."
 
@@ -550,9 +550,9 @@ You're not launching a podcast or building a gym. That's not stage-appropriate. 
 
 For you, this looks like:
 
-**1. Founder-Led Content (Dana's Story)**
+**1. Founder-Led Content (Danna's Story)**
 
-Dana's faith journey, the vision God gave her for 31:33, and her experience as a former celebrity stylist are compelling content. This should be the foundation of your media strategy:
+Danna's faith journey, the vision God gave her for 31:33, and her experience as a former celebrity stylist are compelling content. This should be the foundation of your media strategy:
 
 - **"The 31:33 Story" video series**: 3-5 short videos (2-3 minutes each) telling the origin story, the meaning of Jeremiah 31:33, and why this brand exists. These become evergreen content for ads, email sequences, and social.
 
@@ -562,7 +562,7 @@ Dana's faith journey, the vision God gave her for 31:33, and her experience as a
 
 **2. Podcast Appearances (Not Hosting)**
 
-Instead of starting your own podcast, get Dana on other people's podcasts:
+Instead of starting your own podcast, get Danna on other people's podcasts:
 - Christian women's podcasts (The Happy Hour with Jamie Ivey, Sadie Robertson's Whoa That's Good)
 - Faith and business podcasts (The Ziglar Show, EntreLeadership)
 - Luxury lifestyle podcasts
@@ -878,7 +878,7 @@ You're in the "prove the concept" stage. JAXXON is in the "scale the proven mode
 
 **What to Do Instead:**
 
-Focus on founder-led content (Dana's story, customer stories, behind-the-scenes) that you can create with minimal investment. Get Dana on other people's podcasts rather than starting your own. Build the brand through content, but do it in a capital-efficient way.
+Focus on founder-led content (Danna's story, customer stories, behind-the-scenes) that you can create with minimal investment. Get Danna on other people's podcasts rather than starting your own. Build the brand through content, but do it in a capital-efficient way.
 
 **The lesson:** JAXXON's playbook is brilliant for their stage and their market. But you're not JAXXON. You're 31:33. Your playbook needs to be adapted to your stage, your market, and your unique positioning.
 
@@ -923,7 +923,7 @@ When your customer wears a Mejuri necklace, she feels stylish. When she wears a 
 
 **Founder story is deeply personal and mission-driven.**
 
-Mejuri's founder story is about disrupting an industry and empowering women. That's compelling. But your founder story is about a divine calling. Dana didn't decide to start a jewelry brand. God interrupted her life with a vision. That's not a business origin story. That's a testimony.
+Mejuri's founder story is about disrupting an industry and empowering women. That's compelling. But your founder story is about a divine calling. Danna didn't decide to start a jewelry brand. God interrupted her life with a vision. That's not a business origin story. That's a testimony.
 
 For your customer, that matters. She's not just buying from a smart entrepreneur. She's buying from someone who's following God's call. That creates a connection that transcends commerce.
 
