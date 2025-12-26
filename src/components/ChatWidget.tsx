@@ -1,11 +1,18 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { MessageSquare, X, Send, Sparkles, Loader2 } from 'lucide-react';
+import { MessageSquare, X, Send, Sparkles, Loader2, ArrowUpRight, ChevronRight } from 'lucide-react';
 import { createChatSession, sendMessageToAI } from '../services/geminiService';
 import { ChatMessage, ChatSender } from '../types';
 import ReactMarkdown from 'react-markdown';
 
-const ChatWidget: React.FC = () => {
+interface ChatWidgetProps {
+  onDockChange?: (isDocked: boolean, width: number) => void;
+}
+
+const ChatWidget: React.FC<ChatWidgetProps> = ({ onDockChange }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDocked, setIsDocked] = useState(true);
+  const [sidebarWidth, setSidebarWidth] = useState(384); // Default w-96 is 384px
+  const [isResizing, setIsResizing] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       id: 'welcome',
@@ -36,7 +43,7 @@ const ChatWidget: React.FC = () => {
     if (messagesEndRef.current) {
       messagesEndRef.current.scrollIntoView({ behavior: 'smooth' });
     }
-  }, [messages, isOpen]);
+  }, [messages, isOpen, isDocked]);
 
   const handleSend = async () => {
     if (!inputText.trim() || !chatSession) return;
@@ -79,10 +86,45 @@ const ChatWidget: React.FC = () => {
     }
   };
 
+  const toggleDock = () => {
+    const newDocked = !isDocked;
+    setIsDocked(newDocked);
+    if (onDockChange) onDockChange(newDocked, sidebarWidth);
+  };
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      if (!isResizing) return;
+      
+      const newWidth = window.innerWidth - e.clientX;
+      const constrainedWidth = Math.min(Math.max(newWidth, 280), window.innerWidth * 0.6);
+      setSidebarWidth(constrainedWidth);
+      if (onDockChange) onDockChange(isDocked, constrainedWidth);
+    };
+
+    const handleMouseUp = () => {
+      setIsResizing(false);
+      document.body.style.cursor = 'default';
+      document.body.style.userSelect = 'auto';
+    };
+
+    if (isResizing) {
+      window.addEventListener('mousemove', handleMouseMove);
+      window.addEventListener('mouseup', handleMouseUp);
+      document.body.style.cursor = 'col-resize';
+      document.body.style.userSelect = 'none';
+    }
+
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mouseup', handleMouseUp);
+    };
+  }, [isResizing, isDocked, onDockChange, sidebarWidth]);
+
   return (
     <>
       {/* Floating Button */}
-      {!isOpen && (
+      {!isOpen && !isDocked && (
         <button
           onClick={() => setIsOpen(true)}
           className="fixed bottom-6 right-6 bg-brand-black text-white p-4 rounded-full shadow-xl hover:bg-brand-gold transition-colors duration-300 z-50 flex items-center gap-2"
@@ -92,9 +134,25 @@ const ChatWidget: React.FC = () => {
         </button>
       )}
 
-      {/* Chat Interface Drawer/Modal */}
-      {isOpen && (
-        <div className="fixed bottom-6 right-6 w-96 h-[600px] max-h-[80vh] bg-white rounded-xl shadow-2xl flex flex-col z-50 border border-gray-200 overflow-hidden animate-in slide-in-from-bottom-10 fade-in duration-300">
+      {/* Chat Interface Drawer/Modal or Sidebar */}
+      {(isOpen || isDocked) && (
+        <div 
+          style={isDocked ? { width: `${sidebarWidth}px` } : {}}
+          className={`fixed right-0 bg-white shadow-2xl flex flex-col z-50 border-l border-gray-200 overflow-hidden ${
+            isDocked 
+              ? 'top-0 bottom-0 h-full' 
+              : 'bottom-6 right-6 w-96 h-[600px] max-h-[80vh] rounded-xl border border-gray-200 animate-in slide-in-from-bottom-10 fade-in transition-all duration-300'
+          }`}
+        >
+          {/* Resize Handle */}
+          {isDocked && (
+            <div
+              onMouseDown={() => setIsResizing(true)}
+              className="absolute left-0 top-0 bottom-0 w-1.5 cursor-col-resize hover:bg-brand-gold/30 transition-colors z-50 group"
+            >
+              <div className={`absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-0.5 h-8 bg-gray-300 group-hover:bg-brand-gold rounded-full transition-colors ${isResizing ? 'bg-brand-gold' : ''}`} />
+            </div>
+          )}
           
           {/* Header */}
           <div className="bg-brand-black p-4 flex justify-between items-center text-white">
@@ -102,9 +160,24 @@ const ChatWidget: React.FC = () => {
               <Sparkles size={20} className="text-brand-gold" />
               <h3 className="font-serif font-semibold">Plan Assistant</h3>
             </div>
-            <button onClick={() => setIsOpen(false)} className="hover:text-brand-gold transition-colors">
-              <X size={20} />
-            </button>
+            <div className="flex items-center gap-3">
+              <button 
+                onClick={toggleDock} 
+                className="hover:text-brand-gold transition-colors"
+                title={isDocked ? "Floating Mode" : "Dock to Sidebar"}
+              >
+                {isDocked ? <ChevronRight size={20} /> : <ArrowUpRight size={20} />}
+              </button>
+              <button 
+                onClick={() => {
+                  setIsOpen(false);
+                  if (isDocked) toggleDock();
+                }} 
+                className="hover:text-brand-gold transition-colors"
+              >
+                <X size={20} />
+              </button>
+            </div>
           </div>
 
           {/* Messages Area */}

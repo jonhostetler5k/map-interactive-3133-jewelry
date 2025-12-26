@@ -33,6 +33,8 @@ const App: React.FC = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [activeSectionIndex, setActiveSectionIndex] = useState(0);
   const [expandedPlaybooks, setExpandedPlaybooks] = useState<Set<string>>(new Set());
+  const [isChatDocked, setIsChatDocked] = useState(true);
+  const [chatSidebarWidth, setChatSidebarWidth] = useState(384);
 
   const activeSection = SECTIONS[activeSectionIndex];
 
@@ -198,7 +200,11 @@ const App: React.FC = () => {
       </aside>
 
       {/* Main Content */}
-      <main id="main-content" className="flex-1 h-full overflow-y-auto bg-white relative w-full scroll-smooth">
+      <main 
+        id="main-content" 
+        style={isChatDocked ? { marginRight: `${chatSidebarWidth}px` } : {}}
+        className={`flex-1 h-full overflow-y-auto bg-white relative w-full scroll-smooth transition-all duration-300`}
+      >
         
         <div className="max-w-4xl mx-auto px-6 lg:px-12 py-12 min-h-full flex flex-col">
           
@@ -251,7 +257,10 @@ const App: React.FC = () => {
         </div>
       </main>
 
-      <ChatWidget />
+      <ChatWidget onDockChange={(docked, width) => {
+        setIsChatDocked(docked);
+        setChatSidebarWidth(width);
+      }} />
     </div>
   );
 };
