@@ -16,16 +16,16 @@ const PLAYBOOK_SUBSECTIONS = [
   { id: 'prospect-2-playbook', subsections: [
     { id: 'part-1', label: 'Part 1: The Prospect', anchor: 'PART 1: THE PROSPECT' },
     { id: 'part-2', label: 'Part 2: The Campaigns', anchor: 'PART 2: THE CAMPAIGNS' },
-    { id: 'campaign-1', label: 'Campaign 1: Aspirational Lifestyle Quiz', anchor: 'CAMPAIGN 1: ASPIRATIONAL LIFESTYLE QUIZ' },
-    { id: 'campaign-2', label: 'Campaign 2: Luxury Gift Guide', anchor: 'CAMPAIGN 2: LUXURY GIFT GUIDE' },
-    { id: 'campaign-3', label: 'Campaign 3: VIP Early Access', anchor: 'CAMPAIGN 3: VIP EARLY ACCESS' }
+    { id: 'campaign-1', label: 'Campaign 1: Style Finder Quiz', anchor: 'CAMPAIGN 1: STYLE FINDER QUIZ' },
+    { id: 'campaign-2', label: 'Campaign 2: Thoughtful Gifting Guide', anchor: 'CAMPAIGN 2: THOUGHTFUL GIFTING GUIDE' },
+    { id: 'campaign-3', label: 'Campaign 3: Welcome Offer', anchor: 'CAMPAIGN 3: WELCOME OFFER' }
   ]},
   { id: 'prospect-3-playbook', subsections: [
     { id: 'part-1', label: 'Part 1: The Prospect', anchor: 'PART 1: THE PROSPECT' },
     { id: 'part-2', label: 'Part 2: The Campaigns', anchor: 'PART 2: THE CAMPAIGNS' },
-    { id: 'campaign-1', label: 'Campaign 1: Faith Expression Quiz', anchor: 'CAMPAIGN 1: FAITH EXPRESSION QUIZ' },
-    { id: 'campaign-2', label: 'Campaign 2: Faith & Style Guide', anchor: 'CAMPAIGN 2: FAITH & STYLE GUIDE' },
-    { id: 'campaign-3', label: 'Campaign 3: Belonging Collection', anchor: 'CAMPAIGN 3: BELONGING COLLECTION' }
+    { id: 'campaign-1', label: 'Campaign 1: Style Finder Quiz', anchor: 'CAMPAIGN 1: STYLE FINDER QUIZ' },
+    { id: 'campaign-2', label: 'Campaign 2: Faith & Style Video Series', anchor: 'CAMPAIGN 2: FAITH & STYLE VIDEO SERIES' },
+    { id: 'campaign-3', label: 'Campaign 3: Welcome Offer', anchor: 'CAMPAIGN 3: WELCOME OFFER' }
   ]}
 ];
 
@@ -85,6 +85,7 @@ const App: React.FC = () => {
         let targetHeading: Element | null = null;
         
         headings.forEach(heading => {
+          if (targetHeading) return; // Already found a match
           const text = heading.textContent?.trim().toUpperCase() || '';
           if (text.includes(anchor.toUpperCase())) {
             targetHeading = heading;
@@ -199,11 +200,6 @@ const App: React.FC = () => {
       {/* Main Content */}
       <main id="main-content" className="flex-1 h-full overflow-y-auto bg-white relative w-full scroll-smooth">
         
-        {/* Brand Banner Strip - Matches Website */}
-        <div className="sticky top-0 z-10 bg-brand-slate text-white py-2 px-6 lg:px-12 flex justify-between items-center shadow-md">
-           <span className="font-sans text-xs tracking-[0.2em] uppercase font-bold">You Belong</span>
-        </div>
-
         <div className="max-w-4xl mx-auto px-6 lg:px-12 py-12 min-h-full flex flex-col">
           
           {/* Header Section */}

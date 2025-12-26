@@ -1,11 +1,12 @@
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI, ThinkingLevel } from "@google/genai";
 import { FULL_MARKETING_PLAN } from "../content/index";
 
 let aiClient: GoogleGenAI | null = null;
 
 const getClient = () => {
   if (!aiClient) {
-    aiClient = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const apiKey = process.env.GEMINI_API_KEY || process.env.API_KEY;
+    aiClient = new GoogleGenAI({ apiKey });
   }
   return aiClient;
 };
@@ -17,6 +18,9 @@ export const createChatSession = () => {
   return client.chats.create({
     model: 'gemini-3-flash-preview',
     config: {
+      thinkingConfig: {
+        thinkingLevel: ThinkingLevel.LOW
+      },
       systemInstruction: `You are a AI powered strategic marketing consultant for 5K specialized in answering questions for the 31:33 Jewelry team based on the '31:33 Jewelry Marketing Action Plan'.
       
       Here is the full content of the plan you are an expert on:
@@ -42,18 +46,21 @@ export const sendMessageToAI = async (
   onChunk: (text: string) => void
 ): Promise<string> => {
   try {
-    const result = await chatSession.sendMessageStream({ message });
+    // For the @google/genai SDK (v1.x), sendMessageStream expects an object with a 'message' property.
+    // The result is an AsyncGenerator that can be iterated directly.
+    const stream = await chatSession.sendMessageStream({ message });
     let fullText = "";
     
-    for await (const chunk of result.stream) {
-      const chunkText = chunk.text();
+    for await (const chunk of stream) {
+      // Extract text from the chunk. In this SDK version, chunk.text is a string property.
+      const chunkText = chunk.text || "";
       fullText += chunkText;
       onChunk(fullText);
     }
     
     return fullText;
   } catch (error) {
-    console.error("Gemini API Error:", error);
+    console.error("Gemini API Error details:", error);
     throw error;
   }
 };

@@ -109,30 +109,44 @@ const ChatWidget: React.FC = () => {
 
           {/* Messages Area */}
           <div className="flex-1 overflow-y-auto p-4 bg-gray-50 space-y-4">
-            {messages.map((msg) => (
-              <div
-                key={msg.id}
-                className={`flex ${msg.sender === ChatSender.USER ? 'justify-end' : 'justify-start'}`}
-              >
+            {messages.map((msg) => {
+              if (msg.sender === ChatSender.AI && !msg.text && !msg.isError) return null;
+
+              return (
                 <div
-                  className={`max-w-[85%] rounded-lg p-3 text-sm ${
-                    msg.sender === ChatSender.USER
-                      ? 'bg-brand-black text-white rounded-br-none'
-                      : 'bg-white border border-gray-200 text-gray-800 rounded-bl-none shadow-sm'
-                  } ${msg.isError ? 'bg-red-50 text-red-600 border-red-200' : ''}`}
+                  key={msg.id}
+                  className={`flex ${msg.sender === ChatSender.USER ? 'justify-end' : 'justify-start'}`}
                 >
-                  {msg.sender === ChatSender.AI ? (
-                    <div className="prose prose-sm max-w-none">
-                      <ReactMarkdown>
-                        {msg.text}
-                      </ReactMarkdown>
-                    </div>
-                  ) : (
-                    <p>{msg.text}</p>
-                  )}
+                  <div
+                    className={`max-w-[85%] rounded-lg p-3 text-sm ${
+                      msg.sender === ChatSender.USER
+                        ? 'bg-brand-black text-white rounded-br-none'
+                        : 'bg-white border border-gray-200 text-gray-800 rounded-bl-none shadow-sm'
+                    } ${msg.isError ? 'bg-red-50 text-red-600 border-red-200' : ''}`}
+                  >
+                    {msg.sender === ChatSender.AI ? (
+                      <div className="prose prose-sm max-w-none">
+                        <ReactMarkdown
+                          components={{
+                            p: ({ node, ...props }) => <p className="mb-3 last:mb-0" {...props} />,
+                            ul: ({ node, ...props }) => <ul className="list-disc ml-4 mb-3" {...props} />,
+                            ol: ({ node, ...props }) => <ol className="list-decimal ml-4 mb-3" {...props} />,
+                            li: ({ node, ...props }) => <li className="mb-1" {...props} />,
+                            h1: ({ node, ...props }) => <h1 className="text-lg font-bold mb-2" {...props} />,
+                            h2: ({ node, ...props }) => <h2 className="text-base font-bold mb-2" {...props} />,
+                            h3: ({ node, ...props }) => <h3 className="text-sm font-bold mb-1" {...props} />,
+                          }}
+                        >
+                          {msg.text}
+                        </ReactMarkdown>
+                      </div>
+                    ) : (
+                      <p>{msg.text}</p>
+                    )}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
             {isLoading && (
               <div className="flex justify-start">
                 <div className="bg-white border border-gray-200 rounded-lg p-3 rounded-bl-none shadow-sm">
