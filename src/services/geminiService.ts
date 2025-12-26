@@ -30,15 +30,28 @@ export const createChatSession = () => {
       2. If a user asks something not covered in the plan, use your general marketing knowledge but explicitly state that it is outside the specific scope of the provided document.
       3. Be concise, professional, and encouraging.
       4. Use Markdown in your responses for readability (bolding key terms, using lists).
+      5. CRITICAL: Always use double newlines between paragraphs, headers, and list items. This is essential for proper formatting.
       `,
     },
   });
 };
 
-export const sendMessageToAI = async (chatSession: any, message: string): Promise<string> => {
+export const sendMessageToAI = async (
+  chatSession: any, 
+  message: string, 
+  onChunk: (text: string) => void
+): Promise<string> => {
   try {
-    const response = await chatSession.sendMessage({ message });
-    return response.text || "I couldn't generate a response.";
+    const result = await chatSession.sendMessageStream({ message });
+    let fullText = "";
+    
+    for await (const chunk of result.stream) {
+      const chunkText = chunk.text();
+      fullText += chunkText;
+      onChunk(fullText);
+    }
+    
+    return fullText;
   } catch (error) {
     console.error("Gemini API Error:", error);
     throw error;

@@ -52,13 +52,21 @@ const ChatWidget: React.FC = () => {
     setIsLoading(true);
 
     try {
-      const responseText = await sendMessageToAI(chatSession, userMsg.text);
-      const aiMsg: ChatMessage = {
-        id: (Date.now() + 1).toString(),
+      // Create a placeholder for the AI response
+      const aiMsgId = (Date.now() + 1).toString();
+      const initialAiMsg: ChatMessage = {
+        id: aiMsgId,
         sender: ChatSender.AI,
-        text: responseText
+        text: ''
       };
-      setMessages(prev => [...prev, aiMsg]);
+      
+      setMessages(prev => [...prev, initialAiMsg]);
+
+      await sendMessageToAI(chatSession, userMsg.text, (fullText) => {
+        setMessages(prev => prev.map(msg => 
+          msg.id === aiMsgId ? { ...msg, text: fullText } : msg
+        ));
+      });
     } catch (error) {
       setMessages(prev => [...prev, {
         id: (Date.now() + 1).toString(),
